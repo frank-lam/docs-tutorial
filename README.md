@@ -311,17 +311,11 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 
 #### 使用代码块和代码高亮
 
-代码高亮
-
-```markdown
+ ```markdown
+## 代码高亮
 先定位到你的目录，然后输入命令 `ls -al` 即可列出该目录下的所有文件。
-```
 
-
-
-代码块
-
- ```java
+## 代码块
 ​```java
 public class HelloWorld {
        public static void main(String[] args) {

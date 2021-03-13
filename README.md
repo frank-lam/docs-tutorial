@@ -324,9 +324,9 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
  ```java
 ​```java
 public class HelloWorld {
-    public static void main(String[] args) {
-				System.out.println("我的第一个 Java 程序：Hello World!");
-    }
+       public static void main(String[] args) {
+              System.out.println("我的第一个Java程序：Hello World。");
+       }
 }
 ​```
  ```

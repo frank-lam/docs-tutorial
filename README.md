@@ -75,9 +75,7 @@
 
 > Markdown 是一种可以使用普通文本编辑器编写的标记语言, 通过简单的标记语法，它可以使普通文本内容具有一定的格式。
 
-Markdown 基础语法本文将不详细展开，如果不了解可以直接转向：[Github - cdoco/markdown-syntax: Markdown 语法详解](https://github.com/cdoco/markdown-syntax)。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。
-
-如果感兴趣，可以看看发展历史：[Markdown - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Markdown)
+Markdown 基础语法本文将不详细展开，如果不了解可以直接转向：[Github - cdoco/markdown-syntax: Markdown 语法详解](https://github.com/cdoco/markdown-syntax)。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。如果感兴趣，还可以看看发展历史：[Markdown - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Markdown)
 
 
 
@@ -87,7 +85,7 @@ Markdown 基础语法本文将不详细展开，如果不了解可以直接转�
 >
 >Typora 目前是 Markdown 文档编写最好的编辑器，有了它会让你爱上文档编写！
 >
->像富文本编辑器一样，所见即所得，无需关注过多 markdown 语法，方便新手快速上手！
+>像富文本编辑器一样，所见即所得，无需关注过多 Markdown 语法，方便新手快速上手！
 >
 >话不多说，上链接：https://www.typora.io
 

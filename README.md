@@ -73,9 +73,9 @@
 
 #### 基本语法
 
-> Markdown 是一种可以使用普通文本编辑器编写的标记语言, 通过简单的标记语法，它可以使普通文本内容具有一定的格式。
+> Markdown  是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。（下文中部分描述简称：md）
 
-Markdown 基础语法本文将不详细展开，如果不了解可以直接转向：[Github - cdoco/markdown-syntax: Markdown 语法详解](https://github.com/cdoco/markdown-syntax)。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。如果感兴趣，还可以看看发展历史：[Markdown - 维基百科，自由的百科全书](https://zh.wikipedia.org/wiki/Markdown)
+Markdown 基础语法本文将不详细展开，如果不了解可以直接转向：[Github - cdoco/markdown-syntax: Markdown 语法详解](https://github.com/cdoco/markdown-syntax)。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。如果感兴趣，还可以看看发展历史：[Markdown - 维基百科](https://zh.wikipedia.org/wiki/Markdown)。
 
 
 
@@ -103,7 +103,7 @@ Markdown 基础语法本文将不详细展开，如果不了解可以直接转�
 
 但是，在 Typora 编辑器中，图片的添加变得特别简单，将截图的图片直接复制即可，或是直接将图片拖动到编辑器中也可以。图片复制效率提升，方便对图片进行统一化管理。
 
-> `文件`-`偏好设置`中请将图片的配置改成如下，`./assets`。配置好后，如果通过截图复制、拖拽图片至 md 文件中，会自动在当前的目录（./assets）下复制进你的图片，可以很轻松的管理你的图片，不必再手写 md 标签。
+> `文件` - `偏好设置`中请将图片的配置改成如下，`./assets`。配置好后，如果通过截图复制、拖拽图片至 md 文件中，会自动在当前的目录（./assets）下复制进你的图片，可以很轻松的管理你的图片，不必再手写 md 标签。
 
 
 

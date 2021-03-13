@@ -165,8 +165,6 @@ md 源码方式创建表格特别复杂，但是通过 Typora 软件可以极大
 
 你是否还在为 md 中引用添加链接烦恼，使用 TabCopy 即可轻松实现「**文字 + 链接**」的复制。
 
-- 源码
-
 ```markdown
 # Expanded
 frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档
@@ -178,20 +176,6 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 # Link
 [frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档](https://github.com/frank-lam/docs-tutorial)
 ```
-
-- 效果如下
-
-frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档
-
-https://github.com/frank-lam/docs-tutorial
-
-
-
-frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://github.com/frank-lam/docs-tutorial
-
-
-
-[frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档](https://github.com/frank-lam/docs-tutorial)
 
 
 

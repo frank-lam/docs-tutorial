@@ -23,7 +23,7 @@
 
 - Markdown 时下最为火热的文本标记语言，是目前官方文档、技术博客中最主流的文档编排方式；
 - 不需要花费很长的时间学习 Markdown 的语法，它的语法真的非常简单；
-- 专注于文档编写，尽量少的精力关注复杂的格式。除一些项目设计书外，比较建议用 word 来编写，绝大多数指导类文档、环境配置指导等文档都推荐使用 markdown 来书写；
+- 专注于文档编写，尽量少的精力关注复杂的格式。除一些项目设计书外，比较建议用 word 来编写，绝大多数指导类文档、环境配置指导等文档都推荐使用 Markdown 来书写；
 - 专注于文档内容的编写，无需过多关系文本格式，支持跨平台文档，不需要考虑兼容性；
 - 更加符合程序员的编程规范，像编程一些编写文档，像代码工程一样演进文档；
 - 在项目开发中常常会需要编写 `REAMDE.md` 文档，特别在 Github 的开源演进中；
@@ -52,9 +52,11 @@ Markdown 基础语法本文将不详细展开，基础学习传送门：https://
 
 直接上图，有个直观的印象
 
-![image-20210515092947948](assets/image-20210515092947948.png)
+![image-20210515112200475](assets/image-20210515112200475.png)
 
-![image-20210515092954014](assets/image-20210515092954014.png)
+![image-20210515112156886](assets/image-20210515112156886.png)
+
+
 
 
 
@@ -175,7 +177,14 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 
 #### draw.io
 
-* 学会使用 svg 作为图片
+> draw.io 当前已经改名成 diagrams.net，是一款免费的在线图表编辑工具，可以用来编辑 BPM, org charts, UML, ER图, 网络拓朴图等各种覆盖的图。
+>
+> 类似于 ProcessOn 的在线画图平台，但是 draw.io 完全免费。支持在线直接画图，chrome 插件客户端，桌面客户端。
+
+- 在线画图：https://app.diagrams.net
+- Chrome 插件下载地址：https://chrome.google.com/webstore/detail/diagramsnet-and-drawio-im/cnoplimhpndhhhnmoigbanpjeghjpohi?utm_source=chrome-ntp-icon
+
+* 官网地址：https://www.diagrams.net
 
 推荐使用 **draw.io** 绘图，导出为 svg 图片，效果体验更好，不失真。该软件提供了 chrome 插件，可直接一键快速安装。
 
@@ -188,8 +197,8 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 > 推荐使用 **Snipaste** 作为你的截图工具。（下载解压无需安装，按下`F1`来开始截图）
 >
 > 官网：https://zh.snipaste.com
->
-> **亮点功能：**
+
+**亮点功能：**
 
 - 自动检测界面元素区域
 - 截图清晰不失真
@@ -207,6 +216,8 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 ### 4. 版本控制
 
 作为开发者，版本控制肯定会想到 Git，当然你可以使用原生的 Git 命令进行版本控制，但是这里更加推荐可视化工具 SourceTree，让新手无需学习太多命令，轻松上手。特别是在一些图片的版本控制中，方便预览图片。
+
+官网地址：https://www.sourcetreeapp.com
 
 #### SourceTree
 

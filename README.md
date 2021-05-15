@@ -1,40 +1,3 @@
-<!-- TOC -->
-
-- [开发者如何编写优雅的技术文档](#开发者如何编写优雅的技术文档)
-    - [前言](#前言)
-    - [一、文档排版](#一文档排版)
-        - [1. Markdown](#1-markdown)
-            - [为什么要学习 Markdown](#为什么要学习-markdown)
-            - [基本语法](#基本语法)
-        - [2. Typora 软件使用技巧](#2-typora-软件使用技巧)
-            - [所见即所得](#所见即所得)
-            - [图片管理](#图片管理)
-            - [表格编辑](#表格编辑)
-            - [快捷键提效](#快捷键提效)
-        - [3. 提效辅助插件](#3-提效辅助插件)
-            - [TabCopy - Chrome 插件](#tabcopy---chrome-插件)
-            - [拷贝猫 - Chrome 插件](#拷贝猫---chrome-插件)
-            - [VSCode TOC 目录生成插件](#vscode-toc-目录生成插件)
-        - [3. 绘图与标注](#3-绘图与标注)
-            - [draw.io](#drawio)
-            - [截图软件 snipate](#截图软件-snipate)
-        - [4. 版本控制](#4-版本控制)
-            - [SourceTree](#sourcetree)
-        - [5. 排版规范](#5-排版规范)
-            - [中英文标点](#中英文标点)
-            - [专用名词拼写](#专用名词拼写)
-            - [英文左右空格](#英文左右空格)
-            - [使用代码块和代码高亮](#使用代码块和代码高亮)
-    - [二、文档行文](#二文档行文)
-        - [1. 句子长度](#1-句子长度)
-        - [2. 图文并茂](#2-图文并茂)
-        - [3. 起承转合](#3-起承转合)
-        - [4. 引用链接](#4-引用链接)
-    - [附录：主流文档协作平台](#附录主流文档协作平台)
-    - [参考引用](#参考引用)
-
-<!-- /TOC -->
-
 
 # 开发者如何编写优雅的技术文档
 
@@ -73,7 +36,7 @@
 
 > Markdown  是一种可以使用普通文本编辑器编写的标记语言，通过简单的标记语法，它可以使普通文本内容具有一定的格式。（下文中部分描述简称：md）
 
-Markdown 基础语法本文将不详细展开，如果不了解可以直接转向：[Github - cdoco/markdown-syntax: Markdown 语法详解](https://github.com/cdoco/markdown-syntax)。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。如果感兴趣，还可以看看发展历史：[Markdown - 维基百科](https://zh.wikipedia.org/wiki/Markdown)。
+Markdown 基础语法本文将不详细展开，基础学习传送门：https://github.com/cdoco/markdown-syntax。对于基础语法，笔者认为略有了解即可，在下面将会隆重 Typora 编辑器，所见即所得，让你爱上 Markdown。如果感兴趣，还可以看看发展历史：https://zh.wikipedia.org/zh-hans/Markdown
 
 
 
@@ -87,11 +50,17 @@ Markdown 基础语法本文将不详细展开，如果不了解可以直接转�
 >
 >话不多说，上官方链接：https://www.typora.io
 
+直接上图，有个直观的印象
+
+![image-20210515092947948](assets/image-20210515092947948.png)
+
+![image-20210515092954014](assets/image-20210515092954014.png)
+
 
 
 #### 所见即所得
 
-所见即所得，无需 md 基础就可以开始编写。像使用 word 编辑器、在线富文本编辑器一样，使用导航栏中的功能即可编辑各种文档格式，编辑完成后自动生成对应的 md 语法。
+所见即所得，无需 md 基础就可以开始编写。像使用 Word、在线富文本编辑器一样，使用导航栏中的功能即可编辑各种文档格式，编辑完成后自动生成对应的 md 语法。
 
 
 
@@ -101,7 +70,7 @@ Markdown 基础语法本文将不详细展开，如果不了解可以直接转�
 
 但是，在 Typora 编辑器中，图片的添加变得特别简单，将截图的图片直接复制即可，或是直接将图片拖动到编辑器中也可以。图片复制效率提升，方便对图片进行统一化管理。
 
-> `文件` - `偏好设置`中请将图片的配置改成如下，`./assets`。配置好后，如果通过截图复制、拖拽图片至 md 文件中，会自动在当前的目录（./assets）下复制进你的图片，可以很轻松的管理你的图片，不必再手写 md 标签。
+> `文件` - `偏好设置`中请将图片的配置改成如下，`./assets`。配置好后，如果通过截图复制、拖拽图片至 md 文件中，会自动在当前的目录（./assets）下复制进你的图片，可以很轻松的管理你的图片，不必再手写 md 图片标签。
 
 
 
@@ -114,38 +83,39 @@ md 源码方式创建表格特别复杂，但是通过 Typora 软件可以极大
 * 直接复制 Excel 上的表格到 Typora 自动生成表格
 
 
+#### 快捷键提效
 
 #### 快捷键提效
 
 * **表格快捷键（这个推荐学习）**
-  * 表格：ctrl + t
-  * 移动表格的两行：alt + 上下方向键
-  * 移动表格的两列：alt + 左右方向键
-  * 删除其中一行：ctrl + shift + delete
-  * 添加一行：ctrl + enter
+  * 表格：<kbd>CTRL</kbd> + <kbd>T</kbd>
+  * 移动表格的两行：<kbd>ALT</kbd> + <kbd>上下方向键</kbd>
+  * 移动表格的两列：<kbd>ALT</kbd> +  <kbd>左右方向键</kbd>
+  * 删除其中一行：<kbd>CTRL</kbd> + <kbd>shift</kbd> + <kbd>delete</kbd>
+  * 添加一行：<kbd>CTRL</kbd> + <kbd>enter</kbd>
 * 编辑快捷键（直接使用导航栏，逐步学习）
   * 无序列表：输入 - 之后输入空格
-  * 有序列表：输入数字 +“.”之后输入空格
-  * 标题：ctrl + 数字
+  * 有序列表：输入数字 + "." 之后输入空格
+  * 标题：<kbd>CTRL</kbd> + <kbd>数字</kbd>
   * 引用：输入 > 之后输入空格
-  * 代码块：```json 回车
-  * 加粗：ctrl + b
-  * 倾斜：ctrl + i
-  * 下划线：ctrl + u
-  * 删除线：alt + shift + 5
+  * 代码块：输入 <kbd>```json</kbd> + <kbd>回车</kbd>
+  * 加粗：<kbd>CTRL</kbd> + <kbd>b</kbd>
+  * 倾斜：<kbd>CTRL</kbd> + <kbd>i</kbd>
+  * 下划线：<kbd>CTRL</kbd> + <kbd>u</kbd>
+  * 删除线：<kbd>ALT</kbd> +  <kbd>shift</kbd> + <kbd>5</kbd>
   * 插入图片：直接拖动到指定位置即可
-  * 插入链接：ctrl + k
+  * 插入链接：<kbd>CTRL</kbd> + <kbd>k</kbd>
 * 基础快捷键（直接使用导航栏，逐步学习）
-  * 生成目录：`[TOC]`按回车
-  * 选中一整行：ctrl + l
-  * 选中单词：ctrl + d
-  * 选中相同格式的文字：ctrl + e
-  * 跳转到文章开头：ctrl + home
-  * 跳转到文章结尾：ctrl + end
-  * 搜索：ctrl + f
-  * 替换：ctrl + h
-  * 放大：ctrl + shift + =
-  * 缩小：ctrl + shift + -
+  * 生成目录：输入 `[TOC]` 按回车
+  * 选中一整行：<kbd>CTRL</kbd> + <kbd>l</kbd>
+  * 选中单词：<kbd>CTRL</kbd> + <kbd>d</kbd>
+  * 选中相同格式的文字：<kbd>CTRL</kbd> + <kbd>e</kbd>
+  * 跳转到文章开头：<kbd>CTRL</kbd> + <kbd>home</kbd>
+  * 跳转到文章结尾：<kbd>CTRL</kbd> + <kbd>end</kbd>
+  * 搜索：<kbd>CTRL</kbd> + <kbd>f</kbd>
+  * 替换：<kbd>CTRL</kbd> + <kbd>h</kbd>
+  * 放大：<kbd>CTRL</kbd> + <kbd>shift</kbd> + <kbd>=</kbd>
+  * 缩小：<kbd>CTRL</kbd> + <kbd>shift</kbd> + <kbd>-</kbd>
 
 
 
@@ -155,7 +125,7 @@ md 源码方式创建表格特别复杂，但是通过 Typora 软件可以极大
 
 >Quickly copy tabs to the clipboard！
 
-* 插件下载地址：[TabCopy - Chrome 网上应用店](https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb?utm_source=chrome-ntp-icon)
+* 插件下载地址：https://chrome.google.com/webstore/detail/tabcopy/micdllihgoppmejpecmkilggmaagfdmb?utm_source=chrome-ntp-icon
 
 ![image-20210314012827724](assets/image-20210314012827724.png)
 
@@ -180,6 +150,10 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 #### 拷贝猫 - Chrome 插件
 
 该扩展创建了一个右键菜单来提供复制功能，通过在支持的页面内容上单击右键来使用它！
+
+插件下载地址：https://chrome.google.com/webstore/detail/copycat/jdjbiojkklnaeoanimopafmnmhldejbg?hl=zh-CN
+
+![image-20210515102236248](assets/image-20210515102236248.png)
 
 
 
@@ -209,12 +183,13 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 
 
 
-#### 截图软件 snipate
+#### 截图软件 Snipaste
 
-> 推荐使用**snipate**作为你的截图工具。（下载解压无需安装，按下`F1`来开始截图）
-> 官方文档：Snipaste:[https://docs.snipaste.com/zh-cn](https://docs.snipaste.com/zh-cn)
-
-**亮点功能：**
+> 推荐使用 **Snipaste** 作为你的截图工具。（下载解压无需安装，按下`F1`来开始截图）
+>
+> 官网：https://zh.snipaste.com
+>
+> **亮点功能：**
 
 - 自动检测界面元素区域
 - 截图清晰不失真
@@ -222,6 +197,8 @@ frank-lam/docs-tutorial: 开发者如何编写优雅的技术文档: https://git
 - 支持截图的图片回放功能
 - 编辑过的截图支持回放再次编辑（在写文档的时候会在截图上有大量的批注工作，这个是非常实用的！目前其他还没有一款截图工具支持这种能力）
 - 前端 / 设计 / 原型图设计中，**可作为图片拾色器**（F1 启动截图，确定颜色后按住 C），**参考线**（F1 启动截图，按住 ALT）
+
+![img](assets/N3QEb3VA.png)
 
 
 

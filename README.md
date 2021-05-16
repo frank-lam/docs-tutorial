@@ -1,4 +1,6 @@
 
+
+
 # 开发者如何编写优雅的技术文档
 
 ## 前言
@@ -373,3 +375,10 @@ public class HelloWorld {
 
 - 给程序员的中文写作指北 | 卡拉搜索
   https://kalasearch.cn/blog/writing-guide-for-programmers
+  
+  
+  
+  
+<br/>
+<br/>
+<div align="center"> <img src="https://raw.githubusercontent.com/frank-lam/public-static-resources/main/assets/wechat/wx_group_qrcode.png" width="400px"/></div
